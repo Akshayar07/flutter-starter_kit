@@ -41,3 +41,25 @@ lib/
 │   ├── en.json
 │   ├── es.json
 ├── test/                     # Test files
+
+
+# Key Features of This Structure
+# Separation of Concerns:
+
+UI, business logic, and services are kept in distinct folders to improve code readability and scalability.
+
+# Core Folder:
+
+Centralized management of constants, utilities, and reusable code.
+# App Folder:
+
+Contains high-level configurations like routes, themes, and localization.
+# Data Folder:
+
+Encapsulates models and repositories for better data flow.
+# Presentation Folder:
+
+Dedicated to the visual representation (UI) of the app, with organized widgets and screens.
+# Test Folder:
+
+Encourages TDD by keeping all test-related files in a single place.
