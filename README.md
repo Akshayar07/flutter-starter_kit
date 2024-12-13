@@ -3,6 +3,7 @@
 
 # Lib Folder Structure
 
+
 lib/
 ├── main.dart                 # Entry point of the application
 ├── app/
